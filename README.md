@@ -2,6 +2,7 @@
 
 Application Android (Java) — persistance locale sécurisée.
 
+Salma AIT ZIDAN
 ## Fonctionnalités
 
 | Stockage | Classe | Usage |
