@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color grey_bg
+color pistache
+color pistache_dark
+color pistache_light
+color red_error
+color white
+color yellow_main
+drawable ic_launcher_foreground
+id btnClear
+id btnLoadJson
+id btnLoadPrefs
+id btnSaveJson
+id btnSavePrefs
+id etName
+id etToken
+id spLang
+id swDark
+id tvResult
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.SecureStorage

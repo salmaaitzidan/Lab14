@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1A1A1A</color>
+    <color name="grey_bg">#F7FAF7</color>
+    <color name="pistache">#6FAE7A</color>
+    <color name="pistache_dark">#4A7C59</color>
+    <color name="pistache_light">#A8D5B5</color>
+    <color name="red_error">#C0392B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow_main">#F5C842</color>
+    <string name="app_name">SecureStorage</string>
+    <style name="Theme.SecureStorage" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/pistache</item>
+        <item name="colorPrimaryVariant">@color/pistache_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/yellow_main</item>
+        <item name="colorSecondaryVariant">@color/yellow_main</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/pistache_dark</item>
+        <item name="android:windowBackground">@color/grey_bg</item>
+    </style>
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pistache"
+            android:padding="14dp"
+            android:text="SecureStorage"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identité"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/pistache_dark"
+            android:paddingBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom utilisateur"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spLang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="8dp"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Thème sombre"
+                android:textSize="15sp"
+                android:textColor="@color/black" />
+
+            <Switch
+                android:id="@+id/swDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sécurité"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/pistache_dark"
+            android:paddingBottom="4dp" />
+
+        <EditText
+            android:id="@+id/etToken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Token (stockage chiffré uniquement)"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SharedPreferences"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/pistache_dark"
+            android:paddingBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="14dp">
+
+            <Button
+                android:id="@+id/btnSavePrefs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Sauvegarder"
+                android:backgroundTint="@color/pistache" />
+
+            <Button
+                android:id="@+id/btnLoadPrefs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Charger"
+                android:backgroundTint="@color/yellow_main"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fichiers internes (JSON)"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/pistache_dark"
+            android:paddingBottom="6dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="14dp">
+
+            <Button
+                android:id="@+id/btnSaveJson"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Sauvegarder JSON"
+                android:backgroundTint="@color/pistache" />
+
+            <Button
+                android:id="@+id/btnLoadJson"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Charger JSON"
+                android:backgroundTint="@color/yellow_main"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Effacer tout"
+            android:backgroundTint="@color/red_error"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Résultat"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/pistache_dark"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:textSize="13sp"
+            android:fontFamily="monospace"
+            android:minHeight="80dp"
+            android:text="(aucun résultat pour l'instant)"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pistache_dark">#4A7C59</color>
+    <color name="pistache">#6FAE7A</color>
+    <color name="pistache_light">#A8D5B5</color>
+    <color name="yellow_main">#F5C842</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1A1A1A</color>
+    <color name="grey_bg">#F7FAF7</color>
+    <color name="red_error">#C0392B</color>
+</resources>
