@@ -36,7 +36,7 @@ com.securestorage.app
 
 1. Cloner le dépôt
 ```bash
-git clone https://github.com/<compte>/SecureStorageSharedPref.git
+git clone https://github.com/salmaaitzidan/Lab14.git
 ```
 2. **File → Open** → sélectionner le dossier
 3. Sync Gradle → **Run**
